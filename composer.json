@@ -1,0 +1,25 @@
+{
+    "name": "swag/custom-media-resolver",
+    "description": "Plugin for resolving custom media fields",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Whiteraven"
+      }
+    ],
+    "require": {
+        "shopware/core": "^6.6.0"
+    },
+    "extra": {
+      "shopware-plugin-class": "Swag\\CustomMediaResolver\\CustomMediaResolver",
+      "label": {
+        "en-GB": "Custom Field Media Resolver"
+      }
+    },
+    "autoload": {
+      "psr-4": {
+        "Swag\\CustomMediaResolver\\": "src/"
+      }
+    }
+  }
